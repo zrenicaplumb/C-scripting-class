@@ -1,15 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class while_loop : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    int numSpiders = 5;
+
+
+    void Start()
+    {
+        for (int i = 0; i < numSpiders; i++)
+        {
+            print("creating spider number:" + i);
+        }
+
+        int bob = 0;
+        while (bob < 6)
+        {
+            print("bob is not 6 yrs old yet");
+            bob += 1;
+            if (bob >= 6)
+            {
+                print("bob is 6 yrs old now");
+            }
+        }
+    }
 }
