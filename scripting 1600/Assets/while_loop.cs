@@ -24,5 +24,11 @@ public class while_loop : MonoBehaviour
                 print("bob is 6 yrs old now");
             }
         }
+        bool skyIsBlue = true;
+        do
+        {
+            print("sky is blue");
+            
+        } while (skyIsBlue);
     }
 }
