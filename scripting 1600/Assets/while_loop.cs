@@ -29,6 +29,16 @@ public class while_loop : MonoBehaviour
         {
             print("sky is blue");
             
-        } while (skyIsBlue);
+        } while (skyIsBlue == false);
+
+        string[] names = new string[3];
+        names[0] = "will";
+        names[1] = "bob";
+        names[2] = "john";
+
+        foreach(string item in names)
+        {
+            print(item);
+        }
     }
 }
